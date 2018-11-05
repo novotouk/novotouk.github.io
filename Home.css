@@ -3,21 +3,47 @@ html * {
 
 }
 
-html {
-    height: 100%;
+/*html {*/
+    /*height: 100%;*/
 
-}
+/*}*/
 
-body {
-    min-height: 100%;
+/*body {*/
+    /*min-height: 100%;*/
 
-}
+/*}*/
 
 
 .navbar {
     font-family: 'Raleway', sans-serif;
     font-size: 1.4em;
     background-color: black;
-
-
 }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: darkgray;
+}
+
+
+
+/** {border:1px solid red}*/
+
+/* Start of Image and quote section */
+.container {
+    margin-top: 100px;
+}
+
+.center{
+    display: block;
+    margin: auto;
+    width: 100%;
+}
+
+#quote{
+    text-align: center;
+}
+
+/* End of Image and quote section */
+
+
+
